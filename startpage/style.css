@@ -4,3 +4,32 @@ margin: 0;
 background: #ECF0F1;
 background: #222;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
+.welcome {
+  color: white;
+  font-family: "Baloo Bhai" , sans-serif;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: #eee;
+}
+.section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section.main {
+  margin-top: 20px;
+}
+.list { 
+  flex: 1 300px;
+  display: block;
+  max-width: 300px;
+  margin: 0 5px;
+  padding-bottom : 10px;
+  -webkit-box-shadow:0 0 3px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 0 3px rgba (0,0,0,0.1);
+  box-shadow: 0 0 3pz rgba (0,0,0,0.1);
